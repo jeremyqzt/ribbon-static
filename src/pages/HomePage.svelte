@@ -3,7 +3,10 @@
 
 </script>
 <main>
-    <Header />
+    <div class="container">
+        <Header />
+    </div>
+    
 </main>
 <style>
 </style>
