@@ -1,3 +1,14 @@
+<script>
+    import { navigate } from "svelte-navigator";
+    const goToTeam = () => {
+        navigate("/authors");
+    };
+
+    const goToPrivacy = () => {
+        navigate("/privacy");
+    };
+</script>
+
 <main>
     <footer class="container py-5">
         <div class="row">
@@ -17,11 +28,31 @@
             <div class="col-6">
                 <h5>Links</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Our Team</a></li>
-                    <li><a class="text-muted" href="#">Privacy Policy</a></li>
-                    <li><a class="text-muted" href="https://github.com/jeremyqzt/receipts">Source Code</a></li>
+                    <!-- svelte-ignore a11y-invalid-attribute -->
                     <li>
-                        <a class="text-muted" href="https://github.com/jeremyqzt/receipts/issues">Submit a Bug Report</a>
+                        <a class="text-muted" on:click={goToTeam} href="#"
+                            >Our Team</a
+                        >
+                    </li>
+                    <!-- svelte-ignore a11y-invalid-attribute -->
+                    <li>
+                        <a class="text-muted" on:click={goToPrivacy} href="#"
+                            >Privacy Policy</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="text-muted"
+                            href="https://github.com/jeremyqzt/receipts"
+                            >Source Code</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="text-muted"
+                            href="https://github.com/jeremyqzt/receipts/issues"
+                            >Submit a Bug Report</a
+                        >
                     </li>
                 </ul>
             </div>
