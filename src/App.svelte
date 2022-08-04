@@ -1,10 +1,16 @@
 <script>
-    import HomePage from "./pages/HomePage.svelte";
+	import { Router, Route } from "svelte-navigator";
+
+	import HomePage from "./pages/HomePage.svelte";
 </script>
 
-<main>
-	<HomePage />
-</main>
+<Router>
+	<main>
+		<Route path="/">
+			<HomePage />
+		</Route>
+	</main>
+</Router>
 
 <style>
 	@media (min-width: 640px) {
