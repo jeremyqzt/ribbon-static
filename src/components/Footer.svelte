@@ -5,7 +5,7 @@
     };
 
     const goToPrivacy = () => {
-        navigate("/privacy");
+        window.location.href = "/privacy.html";
     };
 </script>
 
