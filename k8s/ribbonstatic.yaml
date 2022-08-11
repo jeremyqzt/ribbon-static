@@ -20,9 +20,9 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 80
-          name: fe-http
+          name: static-http
         - containerPort: 443
-          name: fe-https
+          name: static-https
 ---
 apiVersion: v1
 kind: Service
