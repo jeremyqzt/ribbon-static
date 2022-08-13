@@ -9,7 +9,7 @@
                 width="150"
             />
             <h2 class="fw-normal">Ben Ni</h2>
-            <p>Ben kind-of helped with the project.</p>
+            <p>Ben kinda helped with the project.</p>
             <p>
                 <a
                     class="btn btn-danger white-text"
