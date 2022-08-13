@@ -14,10 +14,10 @@
             <div class="d-flex justify-content-end">
                 <div class="px-3 margin-auto">
                     <a class="text-muted" href="/"
-                    >Home</a
+                    >About Ribbon</a
                 >
                 </div>
-                <div class="px-3 margin-auto">
+                <div class="pl-3 margin-r5 margin-auto">
                     <a class="text-muted" href="/authors"
                     >Our Team</a
                 >
@@ -36,6 +36,11 @@
     .margin-auto {
         margin: auto;
     }
+
+    .margin-r5 {
+        margin-right: 2em !important;
+    }
+
     .no-link {
         color: black;
     }
