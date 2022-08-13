@@ -4,6 +4,10 @@
         navigate("/authors");
     };
 
+    const goToHome = () => {
+        navigate("/");
+    };
+
     const goToPrivacy = () => {
         window.location.href = "/privacy.html";
     };
@@ -28,6 +32,12 @@
             <div class="col-6">
                 <h5>Links</h5>
                 <ul class="list-unstyled text-small">
+                    <!-- svelte-ignore a11y-invalid-attribute -->
+                    <li>
+                        <a class="text-muted" on:click={goToHome} href="#"
+                            >Home</a
+                        >
+                    </li>
                     <!-- svelte-ignore a11y-invalid-attribute -->
                     <li>
                         <a class="text-muted" on:click={goToTeam} href="#"
