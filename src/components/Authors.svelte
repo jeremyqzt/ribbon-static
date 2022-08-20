@@ -1,4 +1,4 @@
-<div class="container marketing">
+<div class="container marketing my-5">
     <div class="row d-flex justify-content-center">
         <div class="col-md-6">
             <img

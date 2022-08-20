@@ -12,11 +12,11 @@
     <Header />
     <Logo />
     <WhatDo />
-    <hr class="featurette-divider" />
+    <hr class="featurette-divider my-5" />
     <HowDo />
-    <hr class="featurette-divider" />
+    <hr class="featurette-divider my-5" />
     <Price />
-    <hr class="featurette-divider" />
+    <hr class="featurette-divider my-5" />
     <Footer />
 </main>
 
