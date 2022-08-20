@@ -1,6 +1,16 @@
 <script>
+    import { navigate } from "svelte-navigator";
+
+    const goToHome = () => {
+        navigate("/");
+    };
+
     const goToApp = () => {
         window.location.href = "https://ui.ribbonreceipts.com/";
+    };
+
+    const goToAuthor = () => {
+        navigate("/authors");
     };
 </script>
 
@@ -13,14 +23,16 @@
             </a>
             <div class="d-flex justify-content-end">
                 <div class="px-3 margin-auto">
-                    <a class="text-muted" href="/"
-                    >About Ribbon</a
-                >
+                    <!-- svelte-ignore a11y-invalid-attribute -->
+                    <a class="text-muted" href="#" on:click={goToHome}
+                        >About Ribbon</a
+                    >
                 </div>
                 <div class="pl-3 margin-r5 margin-auto">
-                    <a class="text-muted" href="/authors"
-                    >Our Team</a
-                >
+                    <!-- svelte-ignore a11y-invalid-attribute -->
+                    <a class="text-muted" href="#" on:click={goToAuthor}
+                        >Our Team</a
+                    >
                 </div>
                 <div class="d-flex" role="search">
                     <button class="btn btn-danger" on:click={goToApp}
