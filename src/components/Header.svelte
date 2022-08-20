@@ -9,6 +9,10 @@
         window.location.href = "https://ui.ribbonreceipts.com/";
     };
 
+    const goToSignup = () => {
+        window.location.href = "https://ui.ribbonreceipts.com/signup";
+    };
+
     const goToAuthor = () => {
         navigate("/authors");
     };
@@ -31,12 +35,17 @@
                 <div class="pl-3 margin-r5 margin-auto">
                     <!-- svelte-ignore a11y-invalid-attribute -->
                     <a class="text-muted" href="#" on:click={goToAuthor}
-                        >Our Team</a
+                        >About Our Team</a
                     >
                 </div>
-                <div class="d-flex" role="search">
+                <div class="d-flex mx-2" role="search">
+                    <button class="btn btn-outline-danger" on:click={goToSignup}
+                        >Sign Up Here!</button
+                    >
+                </div>
+                <div class="d-flex mx-2" role="search">
                     <button class="btn btn-danger" on:click={goToApp}
-                        >Go to App</button
+                        >Sign In Here</button
                     >
                 </div>
             </div>
@@ -50,7 +59,7 @@
     }
 
     .margin-r5 {
-        margin-right: 2em !important;
+        margin-right: 1.5em !important;
     }
 
     .no-link {
