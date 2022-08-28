@@ -23,11 +23,11 @@
                     </svg>
                 </div>
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">
+                    <div class="featurette-heading fw-normal lh-1 h2">
                         How Ribbon Does It. <span class="text-muted"
                             >It’s a bit harder now.</span
                         >
-                    </h2>
+                    </div>
                     <p class="lead">
                         Ribbon Receipts utilizes Python's Pillow library to convert the receipts into black & white.
                         It then uses tesseract ocr library to read a image for words. 

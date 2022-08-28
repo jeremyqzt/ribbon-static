@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <h5>Links</h5>
+                <div class="h5">Links</div>
                 <ul class="list-unstyled text-small">
                     <!-- svelte-ignore a11y-invalid-attribute -->
                     <li>

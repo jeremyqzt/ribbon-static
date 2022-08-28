@@ -6,11 +6,11 @@
         <div class="container-fluid">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">
+                    <div class="featurette-heading fw-normal lh-1 h2">
                         Thats all good. <span class="text-muted"
                             >What does it cost?</span
                         >
-                    </h2>
+                    </div>
                     <p class="lead">Nothing!</p>
                 </div>
                 <div class="col-md-5 d-flex justify-content-center">

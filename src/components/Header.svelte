@@ -40,12 +40,12 @@
                 </div>
                 <div class="d-flex mx-2" role="search">
                     <button class="btn btn-outline-danger" on:click={goToSignup}
-                        >Sign Up Here!</button
+                        >Sign Up!</button
                     >
                 </div>
                 <div class="d-flex mx-2" role="search">
                     <button class="btn btn-danger" on:click={goToApp}
-                        >Sign In Here</button
+                        >Sign In!</button
                     >
                 </div>
             </div>

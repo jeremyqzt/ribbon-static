@@ -6,11 +6,11 @@
         <div class="container-fluid">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">
+                    <div class="featurette-heading fw-normal lh-1 h2">
                         What Ribbon Does. <span class="text-muted"
                             >It’s really simple.</span
                         >
-                    </h2>
+                    </div>
                     <p class="lead">
                         Ribbon Receipts is a online app that can scan the images
                         you upload and parse them into readable words

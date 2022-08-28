@@ -8,7 +8,7 @@
                 height="150"
                 width="150"
             />
-            <h2 class="fw-normal">Ben Ni</h2>
+            <div class="fw-normal h2">Ben Ni</div>
             <p>Ben kinda helped with the project.</p>
             <p>
                 <a
@@ -37,7 +37,7 @@
                 height="150"
                 width="150"
             />
-            <h2 class="fw-normal">Jeremy Qian</h2>
+            <div class="fw-normal h2">Jeremy Qian</div>
             <p>Jeremy helped with the project.</p>
             <p>
                 <a
