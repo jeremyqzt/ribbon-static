@@ -11,6 +11,10 @@
     const goToPrivacy = () => {
         window.location.href = "/privacy.html";
     };
+
+    const goToEULA = () => {
+        window.location.href = "/eula.html";
+    };
 </script>
 
 <main>
@@ -48,6 +52,12 @@
                     <li>
                         <a class="text-muted" on:click={goToPrivacy} href="#"
                             >Privacy Policy</a
+                        >
+                    </li>
+                    <!-- svelte-ignore a11y-invalid-attribute -->
+                    <li>
+                        <a class="text-muted" on:click={goToEULA} href="#"
+                            >End User License</a
                         >
                     </li>
                     <li>
