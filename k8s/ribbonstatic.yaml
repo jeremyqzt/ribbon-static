@@ -17,6 +17,11 @@ spec:
       containers:
       - name: ribbonstatic-app
         image: jeremyqzt/ribbonstatic
+        resources:
+          limits:
+            cpu: 200m
+          requests:
+            cpu: 100m
         imagePullPolicy: Always
         ports:
         - containerPort: 80
