@@ -28,7 +28,7 @@
                     </div>
                     <div class="">
                         <small class="d-block mb-3 text-muted"
-                            >© 2022-2022</small
+                            >Digi Ribbon Technologies © 2022-2022</small
                         >
                     </div>
                 </div>

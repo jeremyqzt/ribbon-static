@@ -8,7 +8,7 @@
                 <div class="col-md-7">
                     <div class="featurette-heading fw-normal lh-1 h2">
                         What Ribbon Does. <span class="text-muted"
-                            >It’s really simple.</span
+                            >It scans and stores receipts.</span
                         >
                     </div>
                     <p class="lead">
