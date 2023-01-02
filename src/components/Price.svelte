@@ -8,10 +8,15 @@
                 <div class="col-md-7">
                     <div class="featurette-heading fw-normal lh-1 h2">
                         Thats all good. <span class="text-muted"
-                            >What does it cost?</span
+                            >What the price?</span
                         >
                     </div>
-                    <p class="lead">Nothing!</p>
+                    <p class="lead">I hope it will be nothing!</p>
+
+                    <p class="lead">
+                        Im a 1.5 person company! I hope to break even on the expensive servers but will aim to keep any end user
+                        costs as low as possible.
+                    </p>
                 </div>
                 <div class="col-md-5 d-flex justify-content-center">
                     <svg
