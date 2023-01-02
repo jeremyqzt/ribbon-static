@@ -3,6 +3,7 @@
 
 	import HomePage from "./pages/HomePage.svelte";
 	import AuthorPage from "./pages/AuthorPage.svelte";
+	import ContactPage from "./pages/ContactsPage.svelte";
 
 </script>
 
@@ -13,6 +14,9 @@
 		</Route>
 		<Route path="authors">
 			<AuthorPage />
+		</Route>
+		<Route path="contact">
+			<ContactPage />
 		</Route>
 	</main>
 </Router>

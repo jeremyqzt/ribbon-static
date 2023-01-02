@@ -16,6 +16,10 @@
     const goToAuthor = () => {
         navigate("/authors");
     };
+
+    const goToContact = () => {
+        navigate("/contact");
+    };
 </script>
 
 <main>
@@ -36,6 +40,12 @@
                     <!-- svelte-ignore a11y-invalid-attribute -->
                     <a class="text-muted" href="#" on:click={goToAuthor}
                         >About Our Team</a
+                    >
+                </div>
+                <div class="pl-3 margin-r5 margin-auto">
+                    <!-- svelte-ignore a11y-invalid-attribute -->
+                    <a class="text-muted" href="#" on:click={goToContact}
+                        >Contact Us</a
                     >
                 </div>
                 <div class="d-flex mx-2" role="search">
