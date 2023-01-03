@@ -3,8 +3,7 @@
   import Logo from "../components/Logo.svelte";
   import Footer from "../components/Footer.svelte";
   import WhatDo from "../components/WhatDo.svelte";
-  import After from "../components/After.svelte";
-
+  import AfterContent from "../components/AfterContent.svelte";
   // import HowDo from "../components/HowDo.svelte";
   import Price from "../components/Price.svelte";
 </script>
@@ -14,7 +13,7 @@
   <Logo />
   <WhatDo />
   <hr class="featurette-divider my-5" />
-  <After />
+  <AfterContent />
   <hr class="featurette-divider my-5" />
   <!--
     <HowDo />
