@@ -1,5 +1,7 @@
 <script>
   import { navigate } from "svelte-navigator";
+  import Download from "../components/DownloadAppStore.svelte";
+
   const goToTeam = () => {
     navigate("/authors");
   };
@@ -17,8 +19,8 @@
   };
 
   const goToContact = () => {
-        navigate("/contact");
-    };
+    navigate("/contact");
+  };
 </script>
 
 <main>
@@ -32,7 +34,16 @@
           </div>
           <div class="">
             <small class="d-block mb-3 text-muted"
-              >Digi Ribbon Technologies © 2022-2022</small
+              >Digi Ribbon Technologies © 2022-2023</small
+            >
+          </div>
+
+          <div class="mt-5">
+            <a
+              class="text-muted"
+              target="_blank"
+              href="https://apps.apple.com/us/app/ribbon-receipts/id1662296584"
+              ><Download /></a
             >
           </div>
         </div>
@@ -65,8 +76,30 @@
             >
           </li>
           <li>
+            <a
+              class="text-muted"
+              href="https://github.com/jeremyqzt/ribbon-static"
+              >Source Code (This Site)</a
+            >
+          </li>
+          <li>
             <a class="text-muted" href="https://github.com/jeremyqzt/receipts"
-              >Source Code</a
+              >Source Code (Receipts)</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-muted"
+              href="https://github.com/jeremyqzt/receipts-mobile"
+              >Source Code (Mobile)</a
+            >
+          </li>
+
+          <li>
+            <a
+              class="text-muted"
+              href="https://github.com/jeremyqzt/receipts-parser"
+              >Source Code (Parser)</a
             >
           </li>
           <li>

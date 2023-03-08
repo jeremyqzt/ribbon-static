@@ -6,9 +6,8 @@
         <div class="container-fluid py-5">
             <div class="display-5 fw-bold h1">Authors</div>
             <p class="col-md-8 fs-4">
-                Two People worked on this project. <br />
-                Did it really take two people to build this terrible web app? <br />
-                I guess so...
+                I created this app in my spare time. <br />
+                If you want to hire a Full-stack developer, please reach out to me! <br />
             </p>
         </div>
     </div>
