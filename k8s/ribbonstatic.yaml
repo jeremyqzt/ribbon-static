@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ribbonstatic-app
-        image: jeremyqzt/ribbonstatic
+        image: $IMAGE
         resources:
           limits:
             cpu: 200m
