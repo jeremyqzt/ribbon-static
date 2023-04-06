@@ -6,7 +6,7 @@
         <div class="container-fluid py-5">
             <div class="display-5 fw-bold h1">Authors</div>
             <p class="col-md-8 fs-4">
-                I created this app in my spare time. <br />
+                It's only me - so far. <br />
                 If you want to hire a Full-stack developer, please reach out to me! <br />
             </p>
         </div>
