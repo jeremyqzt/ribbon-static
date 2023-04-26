@@ -83,8 +83,13 @@
             >
           </li>
           <li>
-            <a class="text-muted" href="https://github.com/jeremyqzt/receipts"
-              >Source Code (Receipts)</a
+            <a class="text-muted" href="https://github.com/jeremyqzt/receipts-backend"
+              >Source Code (Backend)</a
+            >
+          </li>
+          <li>
+            <a class="text-muted" href="https://github.com/jeremyqzt/ribbon-ui"
+              >Source Code (UI)</a
             >
           </li>
           <li>
