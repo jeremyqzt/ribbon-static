@@ -110,7 +110,7 @@
           <li>
             <a
               class="text-muted"
-              href="https://github.com/jeremyqzt/receipts/issues"
+              href="https://github.com/jeremyqzt/receipts-backend/issues"
               >Submit a Bug Report</a
             >
           </li>
